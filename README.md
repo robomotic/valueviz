@@ -39,7 +39,9 @@ https://quantprice.herokuapp.com/api/v1.1/scoop/period?tickers=IBM,MSFT&begin=20
 
 ### Rate limit
 
-All requests are rate limited to 10 requests per hour
+All requests are rate limited to 10 requests per hour.
+If you want to register for a full access API send me an email to investment [AT] robomotic [dot] com .
+You will receive an API key to add to the URL.
 
 We are setting up a paypal account for paid subscription without rates.
 
