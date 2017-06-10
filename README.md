@@ -43,4 +43,7 @@ All requests are rate limited to 10 requests per hour
 
 We are setting up a paypal account for paid subscription without rates.
 
+### List of tickers available
+
+https://github.com/robomotic/valueviz/blob/master/scoop_tickers.csv
 
