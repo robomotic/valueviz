@@ -17,7 +17,13 @@ https://quantprice.herokuapp.com/api/v1.1/scoop/daily?tickers=MSFT&date=2017-06-
 
 ### Historical prices
 
-You have to provide a 
+You have to provide a date range :
+
+```
+https://quantprice.herokuapp.com/api/v1.1/scoop/period?tickers=MSFT&begin=2012-02-19&end=2012-02-20
+```
+
+If you don't provide begin or end it will use the earliest or current date:
 
 ```
 https://quantprice.herokuapp.com/api/v1.1/scoop/period?tickers=MSFT&begin=2012-02-19
@@ -30,3 +36,11 @@ You can just comma separate tickers:
 ```
 https://quantprice.herokuapp.com/api/v1.1/scoop/period?tickers=IBM,MSFT&begin=2012-02-19
 ```
+
+### Rate limit
+
+All requests are rate limited to 10 requests per hour
+
+We are setting up a paypal account for paid subscription without rates.
+
+
