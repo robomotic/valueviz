@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 You need to be familiar with RESTFUL services.
 
 ```
-https://quantprice.herokuapp.com/api/v1.1/scoop/daily?tickers=MSFT&date=2017-06-10
+https://quantprice.herokuapp.com/api/v1.1/scoop/day?tickers=MSFT&date=2017-06-10
 ```
 
 ### Historical prices
