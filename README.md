@@ -14,6 +14,7 @@ You need to be familiar with RESTFUL services.
 ```
 https://quantprice.herokuapp.com/api/v1.1/scoop/day?tickers=MSFT&date=2017-06-09
 ```
+Price data is split adjusted.
 
 ### Historical prices
 
@@ -29,6 +30,8 @@ If you don't provide begin or end it will use the earliest or current date:
 https://quantprice.herokuapp.com/api/v1.1/scoop/period?tickers=MSFT&begin=2012-02-19
 ```
 
+Price data is split adjusted.
+
 ### Multiple tickers
 
 You can just comma separate tickers:
@@ -36,6 +39,20 @@ You can just comma separate tickers:
 ```
 https://quantprice.herokuapp.com/api/v1.1/scoop/period?tickers=IBM,MSFT&begin=2012-02-19
 ```
+Price data is split adjusted.
+
+### Market trading times
+
+If you want to know what is the status for the NSDAQ and NYSE trading times:
+
+```
+https://nasdaqviz.herokuapp.com/api/v1.1/markets/time/NASDAQ
+https://nasdaqviz.herokuapp.com/api/v1.1/markets/time/NYSE
+```
+It takes into account holidays as well.
+
+For NASDAQ will return: Pre Market Open, Regular Open, After Market Open, Closed
+For NYSE will return: Open Session, Coret Trading Open, Extended Hours, Closed
 
 ### Rate limit
 
