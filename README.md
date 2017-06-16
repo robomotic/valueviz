@@ -41,6 +41,15 @@ https://quantprice.herokuapp.com/api/v1.1/scoop/period?tickers=IBM,MSFT&begin=20
 ```
 Price data is split adjusted.
 
+### Experimantal NASDAQ prices
+This contains also ETFS
+
+```
+https://nasdaqviz.herokuapp.com/api/v1.1/markets/data/nasdaq/VOO
+```
+
+Price data is split adjusted.
+
 ### Market trading times
 
 If you want to know what is the status for the NSDAQ and NYSE trading times:
