@@ -31,6 +31,7 @@ https://quantprice.herokuapp.com/api/v1.1/scoop/period?tickers=MSFT&begin=2012-0
 ```
 
 Price data is split adjusted.
+Historical prices are updated at 3.30 pm UTC.
 
 ### Multiple tickers
 
@@ -41,14 +42,22 @@ https://quantprice.herokuapp.com/api/v1.1/scoop/period?tickers=IBM,MSFT&begin=20
 ```
 Price data is split adjusted.
 
-### Experimantal NASDAQ prices
-This contains also ETFS
+### Experimental NASDAQ prices
+This contains also ETFS.
 
 ```
 https://nasdaqviz.herokuapp.com/api/v1.1/markets/data/nasdaq/VOO
 ```
 
-Price data is split adjusted.
+Price data is split adjusted, limited to 66 data points.
+
+### Experimental YAHOO prices
+This contains also ETFS.
+
+```
+https://nasdaqviz.herokuapp.com/api/v1.1/markets/data/yahoo/VOO?days=2
+```
+Price data is split adjusted, limited to 99 data points.
 
 ### Market trading times
 
