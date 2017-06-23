@@ -44,12 +44,20 @@ Price data is split adjusted.
 
 ### Experimental NASDAQ prices
 This contains also ETFS.
+For historical data:
 
 ```
 https://nasdaqviz.herokuapp.com/api/v1.1/markets/data/nasdaq/VOO
 ```
 
 Price data is split adjusted, limited to 66 data points.
+
+For real time data:
+
+```
+https://nasdaqviz.herokuapp.com/api/v1.1/markets/data/nsdaq/realtime/MSFT
+```
+
 
 ### Experimental YAHOO prices
 This contains also ETFS.
