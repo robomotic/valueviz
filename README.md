@@ -57,7 +57,7 @@ For real time data:
 ```
 https://nasdaqviz.herokuapp.com/api/v1.1/markets/data/nsdaq/realtime/MSFT
 ```
-
+on average there is a 5 minute delay for NYSE and NASDAQ symbols, I cannot guarantee a good estimate.
 
 ### Experimental YAHOO prices
 This contains also ETFS.
